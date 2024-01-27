@@ -7,6 +7,8 @@ import Experience from "./components/Experience/Experience";
 import Contacts from "./components/Contacts/Contacts";
 import {StickyContainer} from "react-sticky";
 import StickyNavbar from "./components/UI/stickyElements/stickyNavbar/stickyNavbar";
+import Button from "./components/UI/button/Button";
+import StickyButton from "./components/UI/stickyElements/stickyButton/stickyButton";
 
 const App = () => {
     const greetingRef = useRef()
@@ -28,6 +30,7 @@ const App = () => {
                     contactsRef={contactsRef}
                     greetingRef={greetingRef}
                 />
+                <StickyButton greetingRef={greetingRef} />
                 <Skills skillsRef={skillsRef}/>
                 <Education educationRef={educationRef}/>
                 <Experience experienceRef={experienceRef}/>
