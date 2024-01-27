@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 4em;
+    align-items: center;
+    justify-content: flex-end;
+    button {
+        font-family: 'Ubuntu', sans-serif;
+        border: none;
+        padding: 1em;
+        font-size: 20px;
+        background-color: transparent;
+        transition: background-color ease 0.3s;
+    }
+}
+
+.navbar__items {
+    margin: 1em 3em 0 0;
+}
+
+.navbar span:hover {
+    background-color: #970ce1;
+    cursor: pointer;
+}

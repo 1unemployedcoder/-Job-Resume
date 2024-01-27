@@ -1,0 +1,33 @@
+.animated-element {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 2s, transform 0.5s;
+}
+
+.animated-element.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.animated-elementLate {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 2s 0.5s, transform 0.5s;
+}
+
+.animated-elementLate.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.animated-elementLater {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 2s 1s, transform 0.5s;
+}
+
+.animated-elementLater.visible {
+    opacity: 1;
+    transform: scale(1);
+}

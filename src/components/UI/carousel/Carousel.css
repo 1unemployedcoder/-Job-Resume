@@ -1,0 +1,44 @@
+.carousel {
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+
+.carousel ul {
+    list-style: none;
+}
+
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel_button.prev {
+    left: 20px;
+}
+
+.carousel_button.next {
+    right: 20px;
+}
+
+.slide {
+    display: none;
+    img {
+        width: 600px;
+        border-radius: 30px;
+    }
+}
+
+.slide.active {
+    display: block;
+}

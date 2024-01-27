@@ -1,0 +1,29 @@
+.greeting {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+    img {
+        display: grid;
+        width: 500%;
+        grid-column-start: 13;
+        grid-row-start: 4;
+    }
+}
+
+.aboutme__left {
+    padding: 2em;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 10;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    div {
+        font-size: larger;
+        line-height: 1.5;
+    }
+}
