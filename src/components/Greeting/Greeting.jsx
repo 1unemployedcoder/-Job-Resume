@@ -23,7 +23,7 @@ const Greeting = ( { greetingRef, contactsRef } ) => {
                     }}>СВЯЗЬ СО МНОЙ</Button>
                 </ScrollAnimation>
             </div>
-            <img src={businessGif} alt="businessGif"/>
+            <img className='businessGif' src={businessGif} alt="businessGif"/>
         </div>
     );
 };
