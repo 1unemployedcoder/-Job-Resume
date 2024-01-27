@@ -1,9 +1,9 @@
 import React from 'react';
 import Button from "../button/Button";
 
-const Navbar = ({contactsRef, educationRef, experienceRef, skillsRef}) => {
+const Navbar = ({contactsRef, educationRef, experienceRef, skillsRef, navbarRef}) => {
     return (
-        <div className='navbar'>
+        <div ref={navbarRef} className='navbar'>
             <div className='navbar__items'>
                 <Button onClick={() => {
                     skillsRef.current?.scrollIntoView({behavior: 'smooth'})

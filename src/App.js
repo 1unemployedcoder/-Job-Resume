@@ -2,10 +2,11 @@ import React, {useRef} from 'react';
 import './styles/styles'
 import Greeting from "./components/Greeting/Greeting";
 import Skills from "./components/Skills/Skills";
-import Navbar from "./components/UI/navbar/Navbar";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Contacts from "./components/Contacts/Contacts";
+import {StickyContainer} from "react-sticky";
+import StickyNavbar from "./components/UI/stickyElements/stickyNavbar/stickyNavbar";
 
 const App = () => {
     const greetingRef = useRef()
@@ -16,17 +17,22 @@ const App = () => {
 
     return (
         <div className='App'>
-            <Navbar
-                skillsRef={skillsRef}
-                educationRef={educationRef}
-                experienceRef={experienceRef}
-                contactsRef={contactsRef}
-            />
-            <Greeting contactsRef={contactsRef} greetingRef={greetingRef}/>
-            <Skills skillsRef={skillsRef}/>
-            <Education educationRef={educationRef}/>
-            <Experience experienceRef={experienceRef}/>
-            <Contacts contactsRef={contactsRef}/>
+            <StickyContainer>
+                <StickyNavbar
+                    contactsRef={contactsRef}
+                    educationRef={educationRef}
+                    experienceRef={experienceRef}
+                    skillsRef={skillsRef}
+                />
+                <Greeting
+                    contactsRef={contactsRef}
+                    greetingRef={greetingRef}
+                />
+                <Skills skillsRef={skillsRef}/>
+                <Education educationRef={educationRef}/>
+                <Experience experienceRef={experienceRef}/>
+                <Contacts contactsRef={contactsRef}/>
+            </StickyContainer>
         </div>
     );
 };
