@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/-Job-Resume/static/css/main.2ba4d8e5.css",
+    "main.js": "/-Job-Resume/static/js/main.a6e34f80.js",
+    "static/media/buisnessGuy.gif": "/-Job-Resume/static/media/buisnessGuy.210ddb17cab41471c131.gif",
+    "static/media/businessTeam.gif": "/-Job-Resume/static/media/businessTeam.dce82d180d0157a8c619.gif",
+    "static/media/education.gif": "/-Job-Resume/static/media/education.524fbd7d91f8684e9820.gif",
+    "static/media/contacts.gif": "/-Job-Resume/static/media/contacts.c41d84d2a9531b1b634f.gif",
+    "static/media/order.png": "/-Job-Resume/static/media/order.6881ddde731a45504c38.png",
+    "static/media/goods.png": "/-Job-Resume/static/media/goods.3fe1735b4bf024e3ef99.png",
+    "static/media/cart.png": "/-Job-Resume/static/media/cart.42eaf581a37a8372f6b0.png",
+    "static/media/goodItem.png": "/-Job-Resume/static/media/goodItem.4f1be91786a0b7a790c7.png",
+    "static/media/mailLogo.png": "/-Job-Resume/static/media/mailLogo.08faf50832c29185ae0e.png",
+    "static/media/auth.png": "/-Job-Resume/static/media/auth.af7bbc12b61522cd48e2.png",
+    "static/media/tkuik.png": "/-Job-Resume/static/media/tkuik.410cfcdb184dabc78961.png",
+    "static/media/tgLogo.webp": "/-Job-Resume/static/media/tgLogo.66fc0f05fff2e93c3dbe.webp",
+    "index.html": "/-Job-Resume/index.html",
+    "main.2ba4d8e5.css.map": "/-Job-Resume/static/css/main.2ba4d8e5.css.map",
+    "main.a6e34f80.js.map": "/-Job-Resume/static/js/main.a6e34f80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ba4d8e5.css",
+    "static/js/main.a6e34f80.js"
+  ]
+}
