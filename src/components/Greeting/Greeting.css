@@ -3,6 +3,12 @@
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
+    @media (max-width: 680px) {
+        font-size: small;
+        img {
+            display: none;
+        }
+    }
 }
 
 .businessGif {
@@ -25,5 +31,11 @@
     div {
         font-size: larger;
         line-height: 1.5;
+    }
+    @media (max-width: 680px) {
+        grid-column: 7/16
+    }
+    @media (max-width: 490px) {
+        grid-column: 1/21
     }
 }

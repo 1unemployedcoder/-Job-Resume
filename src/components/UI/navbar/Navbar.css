@@ -13,13 +13,55 @@
         background-color: transparent;
         transition: background-color ease 0.3s;
     }
+    @media (max-width: 600px) {
+        button {
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 470px) {
+        button {
+            font-size: 12px;
+        }
+    }
+    @media (max-width: 400px) {
+        justify-content: flex-start;
+    }
 }
 
 .navbar__items {
     margin: 0 2.5em 0 0;
+    @media (max-width: 400px) {
+        display: none;
+    }
 }
 
 .navbar span:hover {
     background-color: #970ce1;
     cursor: pointer;
+}
+
+.navbar__btn {
+    display: none;
+    @media (max-width: 400px) {
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        border: none;
+        padding: 1em;
+        font-size: 20px;
+        background-color: transparent;
+        transition: background-color ease 0.3s;
+    }
+}
+
+.navbar__btn:hover {
+    background-color: #970ce1;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .navbar__drop:hover .navbar__items {
+        display: block;
+        position: absolute;
+    }
 }

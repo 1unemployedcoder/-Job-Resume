@@ -10,6 +10,12 @@
         grid-column: 1/10;
         font-size: xxx-large;
     }
+    @media (max-width: 440px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .contacts__img {
@@ -20,12 +26,26 @@
     img {
         width: 100%;
     }
+    @media (max-width: 950px) {
+        img {
+            display: none;
+        }
+    }
 }
 
 .contacts__container {
     grid-column: 3/12;
     grid-row: 10/16;
     font-size: x-large;
+    @media (max-width: 1065px) {
+        grid-column: 1/14;
+    }
+    @media (max-width: 950px) {
+        grid-column: 1/21;
+    }
+    @media (max-width: 440px) {
+        width: 100%;
+    }
 }
 
 .contacts__content {
@@ -36,6 +56,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 440px) {
+        font-size: smaller;
+    }
 }
 
 .contact {

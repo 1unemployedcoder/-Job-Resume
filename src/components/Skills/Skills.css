@@ -11,6 +11,18 @@
         grid-column: 1/21;
         font-size: xxx-large;
     }
+    @media (max-width: 805px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+            margin-top: 2px;
+        }
+    }
+    @media (max-width: 490px) {
+        line-height: 0;
+    }
 }
 
 .skills__border {
@@ -18,6 +30,9 @@
     padding: 20px 40px 40px 40px;
     border-radius: 50px;
     font-size: 20px;
+    @media (max-width: 490px) {
+        font-size: smaller;
+    }
 }
 
 .skills__level {
@@ -67,6 +82,12 @@
     img {
         width: 500%;
     }
+    @media (max-width: 1415px) {
+        font-size: small;
+        img {
+            display: none;
+        }
+    }
 }
 
 .skills__icons {
@@ -81,6 +102,12 @@
     svg {
         margin: 0 5px;
         font-size: 3rem;
+    }
+    @media (max-width: 1160px) {
+        svg {
+            margin: 0;
+            font-size: 2rem;
+        }
     }
 }
 

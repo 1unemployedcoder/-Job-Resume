@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import './styles/styles';
 import Greeting from './components/Greeting/Greeting';
 import Skills from './components/Skills/Skills';
